@@ -54,8 +54,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-color: #727272;
-
+  color: #727272;
 }
 
 .banner-button {
@@ -66,9 +65,9 @@ color: #727272;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
-  color: #FFFFFF;
-  background: #FF900E;
-border-radius: 8px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
 }
 .banner-image {
   margin: 0px 240px 45px 240px;
@@ -77,8 +76,45 @@ border-radius: 8px;
   height: 100%;
   width: 100%;
   border-radius: 8px;
-
 }
 
 /*--------- header complete 
 -----------*/
+
+/*---------------- main ssection -------------*/
+
+
+/* qucik list style */
+.quick-list-container {
+  display: flex;
+  gap: 73px;
+  align-items: center;
+  margin: 85px 200px 130px 200px;
+}
+.photo-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+}
+.quick-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top:24px ;
+  margin-bottom: 32px;
+}
+.quick-list-description button {
+  padding: 21px 24px 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #ff900e;
+  background: #FF900E;
+border-radius: 8px;
+}
+
+
+/*  */
