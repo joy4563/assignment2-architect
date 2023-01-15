@@ -4,7 +4,6 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
-  margin: 0px;
 }
 
 /* Header section style */
@@ -15,7 +14,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  padding-top: 50px;
   margin-left: 228px;
   margin-right: 240px;
 }
@@ -212,7 +211,7 @@ header {
 .achivments-item-container:hover {
   width: 20ex;
   height: 20ex;
-  
+
   background-color: #ff900e;
   box-shadow: 10px 10px 5px rgb(108, 111, 125), 10px -5px 5px rgb(108, 111, 125);
 
