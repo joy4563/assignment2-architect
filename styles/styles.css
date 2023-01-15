@@ -4,6 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
+  margin: 0px;
 }
 
 /* Header section style */
@@ -201,12 +202,22 @@ header {
   justify-content: center;
   border: 1px solid #ff900e;
   padding: 30px;
+
+  /* add effect */
+  transition: width 2s, height 2s, transform 2s;
 }
 .achivments-item-container p {
   margin: 0px;
 }
+.achivments-item-container:hover {
+  width: 20ex;
+  height: 20ex;
+  
+  background-color: #ff900e;
+  box-shadow: 10px 10px 5px rgb(108, 111, 125), 10px -5px 5px rgb(108, 111, 125);
 
-
+  transform: rotate(360deg);
+}
 
 .number {
   font-weight: 600;
@@ -337,15 +348,15 @@ footer {
   }
 
   .image-part button {
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  padding: 15px;
-  line-height: 20px;
-  background: #ff900e;
-  border-radius: 8px;
-}
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    line-height: 20px;
+    background: #ff900e;
+    border-radius: 8px;
+  }
   /* some facts */
   .some-facts {
     margin-left: 0px;
