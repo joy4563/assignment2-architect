@@ -4,6 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
+  margin: auto;
 }
 
 /* Header section style */
@@ -15,8 +16,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-top: 50px;
-  margin-left: 228px;
-  margin-right: 240px;
+  padding-left: 228px;
+  padding-right: 240px;
 }
 .nav-item {
   display: flex;
